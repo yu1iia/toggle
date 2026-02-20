@@ -1,0 +1,53 @@
+body { font-family: sans-serif;}
+.container {max-width:320px;}
+
+/* Przyciski na górze */
+.top-actions { text-align: center; margin-bottom: 20px; }
+.button-row { display: flex; justify-content: center; gap: 10px; margin: 10px; }
+
+.btn {
+    padding: 8px 15px;
+    border: 1px solid #999;
+    background: white;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 100px;
+}
+
+.btn .icon { font-size: 20px; margin-bottom: 4px; }
+.toggle-btn { transition: all 0.2s; }
+
+/* Styl dla "Odznacz" */
+.btn.is-active { color: #d9534f; border-color: #d9534f; }
+
+.material-select { width: 300px; padding: 5px; }
+
+/* Karta produktu */
+.product-card {
+    border: 1px solid #999;
+    margin-bottom: 15px;
+    background: white;
+}
+
+.card-header {
+    background: #ccc;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.card-body {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.checkbox-container { display: flex; align-items: center; gap: 8px; cursor: pointer; }
+.checkbox-container input { transform: scale(1.5); }
+.dimensions { font-weight: bold; font-size: 18px; }
